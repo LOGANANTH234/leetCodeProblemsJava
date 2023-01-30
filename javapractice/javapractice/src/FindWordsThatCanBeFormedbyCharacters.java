@@ -1,9 +1,14 @@
 import java.util.*;
 public class  FindWordsThatCanBeFormedbyCharacters {
     public static void main(String[] args) {
-
-        String[]c={"cat","bt","hat","tree"};
-        String s= "atach";
+Scanner in = new Scanner (System.in);
+        int length=in.nextInt();
+       String [] c= new String[length];
+        for(int i=0;i<length;i++){
+            c[i]=in.next();
+        }
+       
+       String s = in.next();
         System.out.println(countCharacters(c,s));
     }
 
