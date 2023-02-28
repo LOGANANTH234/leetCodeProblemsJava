@@ -21,7 +21,7 @@ public class flames {
                     secnme[j] = 0;
                     break;
 
-                    //System.out.println(frstname.charAt(i));
+                    System.out.println(frstname.charAt(i));
                 }
             }
         }
