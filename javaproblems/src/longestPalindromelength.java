@@ -30,7 +30,7 @@ public class longestPalindromelength {
                 c++;
             }
         }
-        c=c*2;
+        c=c*2*1;
         if (ch.length-c==0){
             return c;
         }
