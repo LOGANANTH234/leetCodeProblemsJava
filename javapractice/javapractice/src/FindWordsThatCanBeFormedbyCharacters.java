@@ -11,6 +11,7 @@ Scanner in = new Scanner (System.in);
        String s = in.next();
         System.out.println(countCharacters(c,s));
     }
+    //method
 
     public static int countCharacters(String[] c, String s) {
 
